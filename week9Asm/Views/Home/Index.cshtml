@@ -1,31 +1,91 @@
-﻿@{
-    ViewBag.Title = "Home Page";
+﻿
+@{
+    ViewBag.Title = "Index";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+
+<link rel="stylesheet" type="text/css" href="~/Style.css" />
+
+
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="theHead">Assignment 9</h1>
+        <p class="lead">
+            We aim to make your cost transparent and addresable, but fully automating the upload, cleaning,
+            enrichment,categorization and visualization of your company's cost data. We do this irrespectively
+            of weather or not your data is good, mediocre or just as bad as everyone elses.
+        </p>
+        <a class="btn btn-lg btn-outline-dark" style="" href="/Account/Login" role="button">View your steps &raquo;</a>
+    </div>
 </div>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+<section id="main">
+    <div class="containersub">
+        <article id="main-col">
+            <h1 class="page-title">Services</h1>
+            <ul id="services">
+                <li>
+                    <h3>Your IT Adviser</h3>
+                    <p>
+                        Optimizing your business in not an easy task and we understand your concerns. As your
+                        adviser we never start from scratch but bring our many years’ of experience to the table.
+                        We understand your real pain points and special circumstances surrounding your industry
+                        and business, so we can recommend perfectly suited solutions.
+                    </p>
+                </li>
+                <li>
+                    <h3>Dynamics 365 - Your ERP Solution</h3>
+                    <p>
+                        Do you suffer from an unscalable, heavy and financially unpredictable IT organisation?
+                        There are clear signs that your business may have outgrown your business system, turning
+                        it into a growth-disabling liability which often results in the need for costly consultants and frequent business-disrupting IT implementations.
+                    </p>
+                </li>
+                <li>
+                    <h3>Your Long-Term Partner</h3>
+                    <p>
+                        Whether you need to revise your IT environment, implement a new ERP system, or outsource
+                        a heavy load of manual maintenance and testing to keep your business system up to date,
+                        our foundation is built on long-term partnerships, transparency and trust.
+                    </p>
+                </li>
+            </ul>
+        </article>
+
+
+        <aside id="sidebar">
+            <div class="dark">
+                <h3>Get A Quote</h3>
+                <form class="quote">
+                    <div>
+                        <label>Name</label><br />
+                        <input type="text" placeholder="Name" />
+                    </div>
+                    <div>
+                        <label>Email</label><br />
+                        <input type="email" placeholder="Email Address" />
+                    </div>
+                    <div>
+                        <label>Message</label><br />
+                        <textarea placeholder="Message"></textarea>
+                    </div>
+                    <button class="button_1" type="submit">Send</button>
+
+                </form>
+            </div>
+        </aside>
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>
+</section>
+
+
+
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+
+

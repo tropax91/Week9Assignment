@@ -1,0 +1,235 @@
+﻿
+
+
+/*Index*/
+.theHead {
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Lucida Bright' Consolas
+}
+
+#footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #000;
+    background-color: #66d0e7;
+    text-align: center
+}
+
+.dark {
+    padding: 15px;
+    background: #35424a;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+aside#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 46px
+}
+
+    aside#sidebar .quote input, aside#sidebar .quote textarea {
+        padding: 5px;
+        width: 90%;
+    }
+
+.button_1 {
+    height: 38px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff
+}
+
+article#main-col {
+    float: left;
+    width: 65%;
+}
+
+ul#services li {
+    list-style: none;
+    padding: 20px;
+    border: #ccc solid 1px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+}
+
+.containersub {
+    width: 100%;
+    margin: auto;
+    overflow: hidden
+}
+
+.page-title {
+    text-align: center
+}
+/*Login*/
+#Form {
+    width: 450px;
+    border-radius: 25px;
+    background-color: #FAFAFA;
+    margin: 100px auto auto auto;
+    padding: 20px;
+    border: 0.3px solid skyblue;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.left {
+    text-align: left;
+    padding-top: 10px;
+}
+
+.right {
+    text-align: center;
+}
+
+.left a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.right a {
+    text-decoration: none;
+}
+
+/*Register*/
+
+.form {
+    width: 600px;
+    border-radius: 25px;
+    background: #FAFAFA;
+    margin: 70px auto auto;
+    padding: 20px;
+    border: 0.5px solid dodgerblue;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+    .center a {
+        text-decoration: none;
+    }
+
+
+/*YourFeed*/
+.circle-text {
+    display: table-cell;
+    height: 350px; /*change this and the width
+for the size of your initial circle*/
+    width: 350px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    /*make it pretty*/
+    background: lightblue;
+    color: #fff;
+    font: 18px "josefin sans", arial; /*change this
+for font-size and font-family*/
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+    .circle-text:hover {
+        background-color: #336b87;
+        border: 5px solid;
+        color: lightblue;
+    }
+
+    .circle-text a {
+        text-decoration: none;
+        color: white;
+    }
+
+.circle-text2 {
+    display: table-cell;
+    height: 350px;
+    width: 350px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: lightgreen;
+    color: #fff;
+    font: 18px "josefin sans", arial;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+    .circle-text2:hover {
+        color: #505160;
+        background-color: #68829e;
+        border: 5px solid;
+    }
+
+    .circle-text2 a {
+        text-decoration: none;
+        color: white;
+    }
+
+.circle-text3 {
+    display: table-cell;
+    height: 350px;
+    width: 350px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #FF6347;
+    color: #fff;
+    font: 18px "josefin sans", arial;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+    .circle-text3:hover {
+        color: orange;
+        background-color: maroon;
+        border: 5px solid;
+    }
+
+    .circle-text3 a {
+        text-decoration: none;
+        color: white;
+    }
+
+.HEAD {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: dimgrey;
+}
+
+.container {
+    width: 98%;
+    height: 100%;
+    margin: 70px auto auto auto;
+    display: block;
+}
+
+.cell {
+    display: table-cell;
+    font-size: 6px;
+    padding: 10px;
+}
